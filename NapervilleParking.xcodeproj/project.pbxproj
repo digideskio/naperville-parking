@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		34C201AEAF59E690BA08072A /* Pods_NapervilleParkingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F4A406FD89A8B6E224E0F24 /* Pods_NapervilleParkingTests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		888D03DD9BA159DF43E3248D /* Pods_NapervilleParking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44AFFE0AF7F93DB52F83F9A0 /* Pods_NapervilleParking.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		FC6D1CC71B48EB7700AB2933 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6D1CC61B48EB7700AB2933 /* AppDelegate.swift */; };
 		FC6D1CC91B48EB7700AB2933 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6D1CC81B48EB7700AB2933 /* ViewController.swift */; };
 		FC6D1CCC1B48EB7700AB2933 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC6D1CCA1B48EB7700AB2933 /* Main.storyboard */; };
@@ -26,6 +28,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1F4A406FD89A8B6E224E0F24 /* Pods_NapervilleParkingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NapervilleParkingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2270B00180C7909EA2879147 /* Pods-NapervilleParking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NapervilleParking.release.xcconfig"; path = "Pods/Target Support Files/Pods-NapervilleParking/Pods-NapervilleParking.release.xcconfig"; sourceTree = "<group>"; };
+		44AFFE0AF7F93DB52F83F9A0 /* Pods_NapervilleParking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NapervilleParking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		45EB6BD90A1182DC01704E49 /* Pods-NapervilleParkingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NapervilleParkingTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NapervilleParkingTests/Pods-NapervilleParkingTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7DDD751C6AC8CB0EBFF21860 /* Pods-NapervilleParking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NapervilleParking.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NapervilleParking/Pods-NapervilleParking.debug.xcconfig"; sourceTree = "<group>"; };
 		FC6D1CC11B48EB7700AB2933 /* NapervilleParking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NapervilleParking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC6D1CC51B48EB7700AB2933 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FC6D1CC61B48EB7700AB2933 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +43,7 @@
 		FC6D1CD61B48EB7700AB2933 /* NapervilleParkingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NapervilleParkingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC6D1CDB1B48EB7700AB2933 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FC6D1CDC1B48EB7700AB2933 /* NapervilleParkingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NapervilleParkingTests.swift; sourceTree = "<group>"; };
+		FEA0A44D0831534C350A4D05 /* Pods-NapervilleParkingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NapervilleParkingTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NapervilleParkingTests/Pods-NapervilleParkingTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				888D03DD9BA159DF43E3248D /* Pods_NapervilleParking.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,18 +59,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34C201AEAF59E690BA08072A /* Pods_NapervilleParkingTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		43AFCA5D23865D91B75222CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44AFFE0AF7F93DB52F83F9A0 /* Pods_NapervilleParking.framework */,
+				1F4A406FD89A8B6E224E0F24 /* Pods_NapervilleParkingTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C563F96D33198272E450DF61 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7DDD751C6AC8CB0EBFF21860 /* Pods-NapervilleParking.debug.xcconfig */,
+				2270B00180C7909EA2879147 /* Pods-NapervilleParking.release.xcconfig */,
+				45EB6BD90A1182DC01704E49 /* Pods-NapervilleParkingTests.debug.xcconfig */,
+				FEA0A44D0831534C350A4D05 /* Pods-NapervilleParkingTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		FC6D1CB81B48EB7700AB2933 = {
 			isa = PBXGroup;
 			children = (
 				FC6D1CC31B48EB7700AB2933 /* NapervilleParking */,
 				FC6D1CD91B48EB7700AB2933 /* NapervilleParkingTests */,
 				FC6D1CC21B48EB7700AB2933 /* Products */,
+				C563F96D33198272E450DF61 /* Pods */,
+				43AFCA5D23865D91B75222CA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -119,9 +151,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FC6D1CE01B48EB7700AB2933 /* Build configuration list for PBXNativeTarget "NapervilleParking" */;
 			buildPhases = (
+				F9E859E4F6DABFB9CDEDD992 /* Check Pods Manifest.lock */,
 				FC6D1CBD1B48EB7700AB2933 /* Sources */,
 				FC6D1CBE1B48EB7700AB2933 /* Frameworks */,
 				FC6D1CBF1B48EB7700AB2933 /* Resources */,
+				158418A0E99FF0C8616EC8B7 /* Embed Pods Frameworks */,
+				94E557C4F4063599D3FC95D5 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -136,9 +171,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FC6D1CE31B48EB7700AB2933 /* Build configuration list for PBXNativeTarget "NapervilleParkingTests" */;
 			buildPhases = (
+				A94C6921700F21030DD9D373 /* Check Pods Manifest.lock */,
 				FC6D1CD21B48EB7700AB2933 /* Sources */,
 				FC6D1CD31B48EB7700AB2933 /* Frameworks */,
 				FC6D1CD41B48EB7700AB2933 /* Resources */,
+				AC08E4762D1EDDD803A0753B /* Embed Pods Frameworks */,
+				9036C4F11C1BECBA70A7BC79 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -156,6 +194,7 @@
 		FC6D1CB91B48EB7700AB2933 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = "Jon Allured";
 				TargetAttributes = {
@@ -206,6 +245,99 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		158418A0E99FF0C8616EC8B7 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NapervilleParking/Pods-NapervilleParking-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9036C4F11C1BECBA70A7BC79 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NapervilleParkingTests/Pods-NapervilleParkingTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		94E557C4F4063599D3FC95D5 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NapervilleParking/Pods-NapervilleParking-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A94C6921700F21030DD9D373 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AC08E4762D1EDDD803A0753B /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NapervilleParkingTests/Pods-NapervilleParkingTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9E859E4F6DABFB9CDEDD992 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FC6D1CBD1B48EB7700AB2933 /* Sources */ = {
@@ -340,6 +472,7 @@
 		};
 		FC6D1CE11B48EB7700AB2933 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DDD751C6AC8CB0EBFF21860 /* Pods-NapervilleParking.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = NapervilleParking/Info.plist;
@@ -350,6 +483,7 @@
 		};
 		FC6D1CE21B48EB7700AB2933 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2270B00180C7909EA2879147 /* Pods-NapervilleParking.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = NapervilleParking/Info.plist;
@@ -360,6 +494,7 @@
 		};
 		FC6D1CE41B48EB7700AB2933 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45EB6BD90A1182DC01704E49 /* Pods-NapervilleParkingTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -379,6 +514,7 @@
 		};
 		FC6D1CE51B48EB7700AB2933 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEA0A44D0831534C350A4D05 /* Pods-NapervilleParkingTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -411,6 +547,7 @@
 				FC6D1CE21B48EB7700AB2933 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FC6D1CE31B48EB7700AB2933 /* Build configuration list for PBXNativeTarget "NapervilleParkingTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +556,7 @@
 				FC6D1CE51B48EB7700AB2933 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
