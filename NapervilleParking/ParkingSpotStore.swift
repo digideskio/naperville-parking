@@ -19,8 +19,8 @@ class ParkingSpotStore {
         if let string = string,
             let openRange = string.rangeOfString("<span"),
             let closeRange = string.rangeOfString("</span>") {
-                let table = string[openRange.startIndex..<closeRange.endIndex]
-                let xml = SWXMLHash.parse(table)
+                let span = string[openRange.startIndex..<closeRange.endIndex]
+                let xml = SWXMLHash.parse(span)
                 
                 if let count = xml["span"].element?.text {
                     self.vanBurenCount = count
