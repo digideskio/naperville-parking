@@ -11,6 +11,8 @@
 		888D03DD9BA159DF43E3248D /* Pods_NapervilleParking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44AFFE0AF7F93DB52F83F9A0 /* Pods_NapervilleParking.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		FC0E0D5C1B4907210035E65F /* ParkingSpotStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0E0D5B1B4907210035E65F /* ParkingSpotStore.swift */; };
 		FC0E0D5E1B4912A20035E65F /* ParkingRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0E0D5D1B4912A20035E65F /* ParkingRequest.swift */; };
+		FC0E0D601B4914F10035E65F /* VanBurenRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0E0D5F1B4914F10035E65F /* VanBurenRequest.swift */; };
+		FC0E0D621B4916C50035E65F /* CentralRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0E0D611B4916C50035E65F /* CentralRequest.swift */; };
 		FC6D1CC71B48EB7700AB2933 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6D1CC61B48EB7700AB2933 /* AppDelegate.swift */; };
 		FC6D1CC91B48EB7700AB2933 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6D1CC81B48EB7700AB2933 /* ViewController.swift */; };
 		FC6D1CCC1B48EB7700AB2933 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC6D1CCA1B48EB7700AB2933 /* Main.storyboard */; };
@@ -37,6 +39,8 @@
 		7DDD751C6AC8CB0EBFF21860 /* Pods-NapervilleParking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NapervilleParking.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NapervilleParking/Pods-NapervilleParking.debug.xcconfig"; sourceTree = "<group>"; };
 		FC0E0D5B1B4907210035E65F /* ParkingSpotStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParkingSpotStore.swift; sourceTree = "<group>"; };
 		FC0E0D5D1B4912A20035E65F /* ParkingRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParkingRequest.swift; sourceTree = "<group>"; };
+		FC0E0D5F1B4914F10035E65F /* VanBurenRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VanBurenRequest.swift; sourceTree = "<group>"; };
+		FC0E0D611B4916C50035E65F /* CentralRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CentralRequest.swift; sourceTree = "<group>"; };
 		FC6D1CC11B48EB7700AB2933 /* NapervilleParking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NapervilleParking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC6D1CC51B48EB7700AB2933 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FC6D1CC61B48EB7700AB2933 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -117,6 +121,10 @@
 				FCD7A4BD1B49697C00093EC9 /* Models */,
 				FC6D1CCA1B48EB7700AB2933 /* Main.storyboard */,
 				FC6D1CC41B48EB7700AB2933 /* Supporting Files */,
+				FC0E0D5B1B4907210035E65F /* ParkingSpotStore.swift */,
+				FC0E0D5D1B4912A20035E65F /* ParkingRequest.swift */,
+				FC0E0D5F1B4914F10035E65F /* VanBurenRequest.swift */,
+				FC0E0D611B4916C50035E65F /* CentralRequest.swift */,
 			);
 			path = NapervilleParking;
 			sourceTree = "<group>";
@@ -369,8 +377,10 @@
 			files = (
 				FC0E0D5E1B4912A20035E65F /* ParkingRequest.swift in Sources */,
 				FC0E0D5C1B4907210035E65F /* ParkingSpotStore.swift in Sources */,
+				FC0E0D601B4914F10035E65F /* VanBurenRequest.swift in Sources */,
 				FC6D1CC91B48EB7700AB2933 /* ViewController.swift in Sources */,
 				FC6D1CC71B48EB7700AB2933 /* AppDelegate.swift in Sources */,
+				FC0E0D621B4916C50035E65F /* CentralRequest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
