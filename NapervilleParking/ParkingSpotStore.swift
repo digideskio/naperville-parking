@@ -15,15 +15,14 @@ class ParkingSpotStore {
     
     func update() {
         let vanBurenUrl = "http://www.naperville.il.us/parkingfacilities/vanburen.aspx"
-        Alamofire.request(.GET, vanBurenUrl).responseString(encoding: nil, completionHandler: parseVanBurenResponse)
+        ParkingRequest.fetch(vanBurenUrl, success: parseVanBurenResponse)
         
         let centralUrl = "http://www.naperville.il.us/parkingfacilities/central.aspx"
-        Alamofire.request(.GET, centralUrl).responseString(encoding: nil, completionHandler: parseCentralResponse)
+        ParkingRequest.fetch(centralUrl, success: parseCentralResponse)
     }
     
-    private func parseVanBurenResponse(request: NSURLRequest, response: NSHTTPURLResponse?, string: String?, error: NSError?) {
-        if let string = string,
-            let openRange = string.rangeOfString("<span"),
+    private func parseVanBurenResponse(string: String) {
+        if let openRange = string.rangeOfString("<span"),
             let closeRange = string.rangeOfString("</span>") {
                 let span = string[openRange.startIndex..<closeRange.endIndex]
                 let xml = SWXMLHash.parse(span)
@@ -36,9 +35,8 @@ class ParkingSpotStore {
         }
     }
     
-    private func parseCentralResponse(request: NSURLRequest, response: NSHTTPURLResponse?, string: String?, error: NSError?) {
-        if let string = string,
-            let openRange = string.rangeOfString("<table"),
+    private func parseCentralResponse(string: String) {
+        if let openRange = string.rangeOfString("<table"),
             let closeRange = string.rangeOfString("</table>") {
                 var table = string[openRange.startIndex..<closeRange.endIndex]
                 
