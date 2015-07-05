@@ -86,6 +86,9 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="chicagoMiddleLabel" destination="Eny-GI-uT6" id="THR-GE-YRK"/>
+                        <outlet property="jeffersonLowerLabel" destination="h7k-zU-lU2" id="F1A-fC-Oc7"/>
+                        <outlet property="jeffersonUpperLabel" destination="G85-n0-TPs" id="gLL-LE-REJ"/>
                         <outlet property="vanBurenLabel" destination="aCV-UI-6Pi" id="uda-pR-Piy"/>
                     </connections>
                 </viewController>
