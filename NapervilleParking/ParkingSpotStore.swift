@@ -12,20 +12,21 @@ class ParkingSpotStore {
     
     func update() {
         let url = "http://www.naperville.il.us/parkingfacilities/vanburen.aspx"
-
-        Alamofire.request(.GET, url).responseString { (request, response, string, error) in
-            if let string = string,
-                let openRange = string.rangeOfString("<span"),
-                let closeRange = string.rangeOfString("</span>") {
-                    let table = string[openRange.startIndex..<closeRange.endIndex]
-                    let xml = SWXMLHash.parse(table)
-                    
-                    if let count = xml["span"].element?.text {
-                        self.vanBurenCount = count
-                    }
-                    
-                    self.delegate?.didUpdateCounts(self)
-            }
+        Alamofire.request(.GET, url).responseString(encoding: nil, completionHandler: parseVanBurenResponse)
+    }
+    
+    private func parseVanBurenResponse(request: NSURLRequest, response: NSHTTPURLResponse?, string: String?, error: NSError?) {
+        if let string = string,
+            let openRange = string.rangeOfString("<span"),
+            let closeRange = string.rangeOfString("</span>") {
+                let table = string[openRange.startIndex..<closeRange.endIndex]
+                let xml = SWXMLHash.parse(table)
+                
+                if let count = xml["span"].element?.text {
+                    self.vanBurenCount = count
+                }
+                
+                self.delegate?.didUpdateCounts(self)
         }
     }
 }
