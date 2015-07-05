@@ -113,14 +113,10 @@
 		FC6D1CC31B48EB7700AB2933 /* NapervilleParking */ = {
 			isa = PBXGroup;
 			children = (
-				FC6D1CC61B48EB7700AB2933 /* AppDelegate.swift */,
-				FC6D1CC81B48EB7700AB2933 /* ViewController.swift */,
+				FCD7A4BC1B49696E00093EC9 /* Controllers */,
+				FCD7A4BD1B49697C00093EC9 /* Models */,
 				FC6D1CCA1B48EB7700AB2933 /* Main.storyboard */,
-				FC6D1CCD1B48EB7700AB2933 /* Images.xcassets */,
-				FC6D1CCF1B48EB7700AB2933 /* LaunchScreen.xib */,
 				FC6D1CC41B48EB7700AB2933 /* Supporting Files */,
-				FC0E0D5B1B4907210035E65F /* ParkingSpotStore.swift */,
-				FC0E0D5D1B4912A20035E65F /* ParkingRequest.swift */,
 			);
 			path = NapervilleParking;
 			sourceTree = "<group>";
@@ -128,7 +124,10 @@
 		FC6D1CC41B48EB7700AB2933 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FC6D1CC61B48EB7700AB2933 /* AppDelegate.swift */,
+				FC6D1CCD1B48EB7700AB2933 /* Images.xcassets */,
 				FC6D1CC51B48EB7700AB2933 /* Info.plist */,
+				FC6D1CCF1B48EB7700AB2933 /* LaunchScreen.xib */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -148,6 +147,23 @@
 				FC6D1CDB1B48EB7700AB2933 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FCD7A4BC1B49696E00093EC9 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FC6D1CC81B48EB7700AB2933 /* ViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		FCD7A4BD1B49697C00093EC9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FC0E0D5B1B4907210035E65F /* ParkingSpotStore.swift */,
+				FC0E0D5D1B4912A20035E65F /* ParkingRequest.swift */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
