@@ -222,6 +222,7 @@
 				TargetAttributes = {
 					FC6D1CC01B48EB7700AB2933 = {
 						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = 5F5YW995L7;
 					};
 					FC6D1CD51B48EB7700AB2933 = {
 						CreatedOnToolsVersion = 6.3.2;
@@ -499,10 +500,12 @@
 			baseConfigurationReference = 7DDD751C6AC8CB0EBFF21860 /* Pods-NapervilleParking.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Jonathan Allured (2M5YZL4W9G)";
 				INFOPLIST_FILE = NapervilleParking/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "33a210a6-c411-46e9-822d-387afece89d7";
 			};
 			name = Debug;
 		};
@@ -511,10 +514,12 @@
 			baseConfigurationReference = 2270B00180C7909EA2879147 /* Pods-NapervilleParking.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Jonathan Allured (5F5YW995L7)";
 				INFOPLIST_FILE = NapervilleParking/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "2a61c7b0-c865-4938-87d9-9b71123dd645";
 			};
 			name = Release;
 		};
