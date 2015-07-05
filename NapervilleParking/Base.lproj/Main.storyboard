@@ -85,6 +85,9 @@
                             <constraint firstAttribute="centerX" secondItem="Wqf-aB-iIG" secondAttribute="centerX" id="wob-nq-pND"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="vanBurenLabel" destination="aCV-UI-6Pi" id="uda-pR-Piy"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

@@ -1,16 +1,20 @@
 import UIKit
 
 class ViewController: UIViewController {
+    let parkingSpotStore = ParkingSpotStore()
+    
+    @IBOutlet weak var vanBurenLabel: UILabel!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        parkingSpotStore.delegate = self
+        parkingSpotStore.update()
     }
+}
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+extension ViewController: ParkingSpotStoreDelegate {
+    func didUpdateCounts(store: ParkingSpotStore) {
+        self.vanBurenLabel.text = store.vanBurenCount
     }
-
-
 }
