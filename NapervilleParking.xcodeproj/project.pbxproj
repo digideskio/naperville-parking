@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC6D1CC71B48EB7700AB2933 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6D1CC61B48EB7700AB2933 /* AppDelegate.swift */; };
+		FC6D1CC91B48EB7700AB2933 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6D1CC81B48EB7700AB2933 /* ViewController.swift */; };
+		FC6D1CCC1B48EB7700AB2933 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC6D1CCA1B48EB7700AB2933 /* Main.storyboard */; };
+		FC6D1CCE1B48EB7700AB2933 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC6D1CCD1B48EB7700AB2933 /* Images.xcassets */; };
+		FC6D1CD11B48EB7700AB2933 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC6D1CCF1B48EB7700AB2933 /* LaunchScreen.xib */; };
+		FC6D1CDD1B48EB7700AB2933 /* NapervilleParkingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6D1CDC1B48EB7700AB2933 /* NapervilleParkingTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC6D1CD71B48EB7700AB2933 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC6D1CB91B48EB7700AB2933 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC6D1CC01B48EB7700AB2933;
+			remoteInfo = NapervilleParking;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FC6D1CC11B48EB7700AB2933 /* NapervilleParking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NapervilleParking.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC6D1CC51B48EB7700AB2933 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC6D1CC61B48EB7700AB2933 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FC6D1CC81B48EB7700AB2933 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FC6D1CCB1B48EB7700AB2933 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC6D1CCD1B48EB7700AB2933 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FC6D1CD01B48EB7700AB2933 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FC6D1CD61B48EB7700AB2933 /* NapervilleParkingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NapervilleParkingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC6D1CDB1B48EB7700AB2933 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC6D1CDC1B48EB7700AB2933 /* NapervilleParkingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NapervilleParkingTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC6D1CBE1B48EB7700AB2933 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC6D1CD31B48EB7700AB2933 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC6D1CB81B48EB7700AB2933 = {
+			isa = PBXGroup;
+			children = (
+				FC6D1CC31B48EB7700AB2933 /* NapervilleParking */,
+				FC6D1CD91B48EB7700AB2933 /* NapervilleParkingTests */,
+				FC6D1CC21B48EB7700AB2933 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC6D1CC21B48EB7700AB2933 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC6D1CC11B48EB7700AB2933 /* NapervilleParking.app */,
+				FC6D1CD61B48EB7700AB2933 /* NapervilleParkingTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC6D1CC31B48EB7700AB2933 /* NapervilleParking */ = {
+			isa = PBXGroup;
+			children = (
+				FC6D1CC61B48EB7700AB2933 /* AppDelegate.swift */,
+				FC6D1CC81B48EB7700AB2933 /* ViewController.swift */,
+				FC6D1CCA1B48EB7700AB2933 /* Main.storyboard */,
+				FC6D1CCD1B48EB7700AB2933 /* Images.xcassets */,
+				FC6D1CCF1B48EB7700AB2933 /* LaunchScreen.xib */,
+				FC6D1CC41B48EB7700AB2933 /* Supporting Files */,
+			);
+			path = NapervilleParking;
+			sourceTree = "<group>";
+		};
+		FC6D1CC41B48EB7700AB2933 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC6D1CC51B48EB7700AB2933 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FC6D1CD91B48EB7700AB2933 /* NapervilleParkingTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC6D1CDC1B48EB7700AB2933 /* NapervilleParkingTests.swift */,
+				FC6D1CDA1B48EB7700AB2933 /* Supporting Files */,
+			);
+			path = NapervilleParkingTests;
+			sourceTree = "<group>";
+		};
+		FC6D1CDA1B48EB7700AB2933 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC6D1CDB1B48EB7700AB2933 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC6D1CC01B48EB7700AB2933 /* NapervilleParking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC6D1CE01B48EB7700AB2933 /* Build configuration list for PBXNativeTarget "NapervilleParking" */;
+			buildPhases = (
+				FC6D1CBD1B48EB7700AB2933 /* Sources */,
+				FC6D1CBE1B48EB7700AB2933 /* Frameworks */,
+				FC6D1CBF1B48EB7700AB2933 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NapervilleParking;
+			productName = NapervilleParking;
+			productReference = FC6D1CC11B48EB7700AB2933 /* NapervilleParking.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC6D1CD51B48EB7700AB2933 /* NapervilleParkingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC6D1CE31B48EB7700AB2933 /* Build configuration list for PBXNativeTarget "NapervilleParkingTests" */;
+			buildPhases = (
+				FC6D1CD21B48EB7700AB2933 /* Sources */,
+				FC6D1CD31B48EB7700AB2933 /* Frameworks */,
+				FC6D1CD41B48EB7700AB2933 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC6D1CD81B48EB7700AB2933 /* PBXTargetDependency */,
+			);
+			name = NapervilleParkingTests;
+			productName = NapervilleParkingTests;
+			productReference = FC6D1CD61B48EB7700AB2933 /* NapervilleParkingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC6D1CB91B48EB7700AB2933 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Jon Allured";
+				TargetAttributes = {
+					FC6D1CC01B48EB7700AB2933 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					FC6D1CD51B48EB7700AB2933 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = FC6D1CC01B48EB7700AB2933;
+					};
+				};
+			};
+			buildConfigurationList = FC6D1CBC1B48EB7700AB2933 /* Build configuration list for PBXProject "NapervilleParking" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC6D1CB81B48EB7700AB2933;
+			productRefGroup = FC6D1CC21B48EB7700AB2933 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC6D1CC01B48EB7700AB2933 /* NapervilleParking */,
+				FC6D1CD51B48EB7700AB2933 /* NapervilleParkingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC6D1CBF1B48EB7700AB2933 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC6D1CCC1B48EB7700AB2933 /* Main.storyboard in Resources */,
+				FC6D1CD11B48EB7700AB2933 /* LaunchScreen.xib in Resources */,
+				FC6D1CCE1B48EB7700AB2933 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC6D1CD41B48EB7700AB2933 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC6D1CBD1B48EB7700AB2933 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC6D1CC91B48EB7700AB2933 /* ViewController.swift in Sources */,
+				FC6D1CC71B48EB7700AB2933 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC6D1CD21B48EB7700AB2933 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC6D1CDD1B48EB7700AB2933 /* NapervilleParkingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC6D1CD81B48EB7700AB2933 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC6D1CC01B48EB7700AB2933 /* NapervilleParking */;
+			targetProxy = FC6D1CD71B48EB7700AB2933 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FC6D1CCA1B48EB7700AB2933 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC6D1CCB1B48EB7700AB2933 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FC6D1CCF1B48EB7700AB2933 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC6D1CD01B48EB7700AB2933 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC6D1CDE1B48EB7700AB2933 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FC6D1CDF1B48EB7700AB2933 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC6D1CE11B48EB7700AB2933 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NapervilleParking/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FC6D1CE21B48EB7700AB2933 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NapervilleParking/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FC6D1CE41B48EB7700AB2933 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NapervilleParkingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NapervilleParking.app/NapervilleParking";
+			};
+			name = Debug;
+		};
+		FC6D1CE51B48EB7700AB2933 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NapervilleParkingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NapervilleParking.app/NapervilleParking";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC6D1CBC1B48EB7700AB2933 /* Build configuration list for PBXProject "NapervilleParking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC6D1CDE1B48EB7700AB2933 /* Debug */,
+				FC6D1CDF1B48EB7700AB2933 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC6D1CE01B48EB7700AB2933 /* Build configuration list for PBXNativeTarget "NapervilleParking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC6D1CE11B48EB7700AB2933 /* Debug */,
+				FC6D1CE21B48EB7700AB2933 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FC6D1CE31B48EB7700AB2933 /* Build configuration list for PBXNativeTarget "NapervilleParkingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC6D1CE41B48EB7700AB2933 /* Debug */,
+				FC6D1CE51B48EB7700AB2933 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC6D1CB91B48EB7700AB2933 /* Project object */;
+}
