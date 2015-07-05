@@ -4,8 +4,10 @@ use_frameworks!
 
 target 'NapervilleParking' do
   pod 'Alamofire'
+  pod 'SWXMLHash'
 end
 
 target 'NapervilleParkingTests' do
   pod 'Alamofire'
+  pod 'SWXMLHash'
 end
