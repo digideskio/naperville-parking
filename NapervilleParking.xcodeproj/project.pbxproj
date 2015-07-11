@@ -121,10 +121,6 @@
 				FCD7A4BD1B49697C00093EC9 /* Models */,
 				FC6D1CCA1B48EB7700AB2933 /* Main.storyboard */,
 				FC6D1CC41B48EB7700AB2933 /* Supporting Files */,
-				FC0E0D5B1B4907210035E65F /* ParkingSpotStore.swift */,
-				FC0E0D5D1B4912A20035E65F /* ParkingRequest.swift */,
-				FC0E0D5F1B4914F10035E65F /* VanBurenRequest.swift */,
-				FC0E0D611B4916C50035E65F /* CentralRequest.swift */,
 			);
 			path = NapervilleParking;
 			sourceTree = "<group>";
@@ -168,8 +164,10 @@
 		FCD7A4BD1B49697C00093EC9 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				FC0E0D5B1B4907210035E65F /* ParkingSpotStore.swift */,
+				FC0E0D611B4916C50035E65F /* CentralRequest.swift */,
 				FC0E0D5D1B4912A20035E65F /* ParkingRequest.swift */,
+				FC0E0D5B1B4907210035E65F /* ParkingSpotStore.swift */,
+				FC0E0D5F1B4914F10035E65F /* VanBurenRequest.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
