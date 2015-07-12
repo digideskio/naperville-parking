@@ -3,10 +3,17 @@ import UIKit
 class ViewController: UIViewController {
     let parkingSpotStore = ParkingSpotStore()
     
+    var dateFormatter: NSDateFormatter {
+        let formatter = NSDateFormatter()
+        formatter.dateFormat = "hh:mm a"
+        return formatter
+    }
+    
     @IBOutlet weak var jeffersonUpperLabel: UILabel!
     @IBOutlet weak var chicagoMiddleLabel: UILabel!
     @IBOutlet weak var jeffersonLowerLabel: UILabel!
     @IBOutlet weak var vanBurenLabel: UILabel!
+    @IBOutlet weak var lastUpdatedLabel: UILabel!
     
     @IBAction func refreshButtonPressed(sender: AnyObject) {
         parkingSpotStore.update()
@@ -26,5 +33,8 @@ extension ViewController: ParkingSpotStoreDelegate {
         self.jeffersonUpperLabel.text = store.jeffersonUpperCount
         self.chicagoMiddleLabel.text = store.chicagoMiddleCount
         self.jeffersonLowerLabel.text = store.jeffersonLowerCount
+        
+        let updatedAt = dateFormatter.stringFromDate(store.lastUpdated!)
+        self.lastUpdatedLabel.text = "As Of: \(updatedAt)"
     }
 }

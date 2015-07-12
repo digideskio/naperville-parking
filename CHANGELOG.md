@@ -8,6 +8,7 @@ practices from [Keep a CHANGELOG](http://keepachangelog.com/).
 
 ### Added
 
+* Last updated label
 * Refresh button
 
 ### Fixed

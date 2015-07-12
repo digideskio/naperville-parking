@@ -17,13 +17,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vYe-CO-yNd" userLabel="Groups">
-                                <rect key="frame" x="0.0" y="20" width="600" height="520"/>
+                                <rect key="frame" x="0.0" y="20" width="600" height="530"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vrM-E9-Hng" userLabel="Spacer">
-                                        <rect key="frame" x="0.0" y="0.0" width="600" height="32"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="600" height="34"/>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="m5W-jR-zOU" userLabel="Jefferson Upper Group">
-                                        <rect key="frame" x="0.0" y="32" width="600" height="90"/>
+                                        <rect key="frame" x="0.0" y="34" width="600" height="90"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Jefferson Upper" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vH8-B3-noL">
                                                 <rect key="frame" x="197" y="0.0" width="206.5" height="35.5"/>
@@ -47,10 +47,10 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PfH-xi-D8l" userLabel="Spacer">
-                                        <rect key="frame" x="0.0" y="122" width="600" height="32"/>
+                                        <rect key="frame" x="0.0" y="124" width="600" height="34"/>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1iJ-X8-IwT" userLabel="Chicago Middle Group">
-                                        <rect key="frame" x="0.0" y="154" width="600" height="90"/>
+                                        <rect key="frame" x="0.0" y="158" width="600" height="90"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chicago Middle" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ihB-yH-cXL">
                                                 <rect key="frame" x="199" y="0.0" width="201.5" height="35.5"/>
@@ -74,10 +74,10 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XaY-7a-KPL" userLabel="Spacer">
-                                        <rect key="frame" x="0.0" y="244" width="600" height="32"/>
+                                        <rect key="frame" x="0.0" y="248" width="600" height="34"/>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ofo-g1-Ag7" userLabel="Jefferson Lower Group">
-                                        <rect key="frame" x="0.0" y="276" width="600" height="90"/>
+                                        <rect key="frame" x="0.0" y="282" width="600" height="90"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Jefferson Lower" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zdu-Bj-Koa">
                                                 <rect key="frame" x="197" y="0.0" width="206.5" height="35.5"/>
@@ -101,10 +101,10 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DjO-yy-gfS" userLabel="Spacer">
-                                        <rect key="frame" x="0.0" y="366" width="600" height="32"/>
+                                        <rect key="frame" x="0.0" y="372" width="600" height="34"/>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VRO-WY-aed" userLabel="Van Buren Group">
-                                        <rect key="frame" x="0.0" y="398" width="600" height="90"/>
+                                        <rect key="frame" x="0.0" y="406" width="600" height="90"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Van Buren" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wqf-aB-iIG">
                                                 <rect key="frame" x="233" y="0.0" width="133" height="35.5"/>
@@ -128,7 +128,7 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="g6y-qL-KyV" userLabel="Spacer">
-                                        <rect key="frame" x="0.0" y="488" width="600" height="32"/>
+                                        <rect key="frame" x="0.0" y="496" width="600" height="34"/>
                                     </view>
                                 </subviews>
                                 <constraints>
@@ -167,11 +167,11 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="A8L-kV-ifh" userLabel="Status Line">
-                                <rect key="frame" x="0.0" y="540" width="600" height="60"/>
+                                <rect key="frame" x="0.0" y="550" width="600" height="50"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6NR-hW-cVH">
-                                        <rect key="frame" x="514" y="12" width="66" height="36"/>
-                                        <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="20"/>
+                                        <rect key="frame" x="532" y="9" width="53" height="31"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="16"/>
                                         <state key="normal" title="Refresh">
                                             <color key="titleColor" red="0.98823529409999999" green="0.98823529409999999" blue="0.98823529409999999" alpha="1" colorSpace="calibratedRGB"/>
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -180,12 +180,20 @@
                                             <action selector="refreshButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GcV-0S-RMw"/>
                                         </connections>
                                     </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="As Of: Just Now" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kdV-WQ-mDZ">
+                                        <rect key="frame" x="15" y="15" width="113" height="19"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="16"/>
+                                        <color key="textColor" red="0.98823529409999999" green="0.98823529409999999" blue="0.98823529409999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstAttribute="trailing" secondItem="6NR-hW-cVH" secondAttribute="trailing" constant="20" id="fXv-jX-Zd4"/>
-                                    <constraint firstAttribute="height" constant="60" id="hCo-Pe-PKa"/>
+                                    <constraint firstAttribute="centerY" secondItem="kdV-WQ-mDZ" secondAttribute="centerY" id="4NE-lu-jfv"/>
+                                    <constraint firstAttribute="trailing" secondItem="6NR-hW-cVH" secondAttribute="trailing" constant="15" id="fXv-jX-Zd4"/>
+                                    <constraint firstAttribute="height" constant="50" id="hCo-Pe-PKa"/>
                                     <constraint firstAttribute="centerY" secondItem="6NR-hW-cVH" secondAttribute="centerY" id="pZ2-Gy-qDg"/>
+                                    <constraint firstItem="kdV-WQ-mDZ" firstAttribute="leading" secondItem="A8L-kV-ifh" secondAttribute="leading" constant="15" id="x3H-Bx-dmC"/>
                                 </constraints>
                             </view>
                         </subviews>
@@ -210,6 +218,7 @@
                         <outlet property="chicagoMiddleLabel" destination="Eny-GI-uT6" id="THR-GE-YRK"/>
                         <outlet property="jeffersonLowerLabel" destination="h7k-zU-lU2" id="F1A-fC-Oc7"/>
                         <outlet property="jeffersonUpperLabel" destination="G85-n0-TPs" id="gLL-LE-REJ"/>
+                        <outlet property="lastUpdatedLabel" destination="kdV-WQ-mDZ" id="5OQ-uZ-1k2"/>
                         <outlet property="vanBurenLabel" destination="aCV-UI-6Pi" id="uda-pR-Piy"/>
                     </connections>
                 </viewController>

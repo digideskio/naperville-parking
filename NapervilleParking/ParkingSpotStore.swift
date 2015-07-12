@@ -7,10 +7,13 @@ protocol ParkingSpotStoreDelegate {
 
 class ParkingSpotStore {
     var delegate: ParkingSpotStoreDelegate?
+    
     var jeffersonUpperCount = ""
     var chicagoMiddleCount = ""
     var jeffersonLowerCount = ""
     var vanBurenCount = ""
+    
+    var lastUpdated: NSDate?
     
     func update() {
         VanBurenRequest.fetch(parseVanBurenResponse)
@@ -36,6 +39,8 @@ class ParkingSpotStore {
         if let count = xml["table"]["tr"][5]["td"][1]["p"]["span"].element?.text {
             self.jeffersonLowerCount = count
         }
+        
+        lastUpdated = NSDate()
         
         self.delegate?.didUpdateCounts(self)
     }
