@@ -14,7 +14,6 @@ class ParkingSpotStore {
     
     func update() {
         VanBurenRequest.fetch(parseVanBurenResponse)
-        CentralRequest.fetch(parseCentralResponse)
     }
     
     private func parseVanBurenResponse(xml: XMLIndexer) {
@@ -22,7 +21,7 @@ class ParkingSpotStore {
             self.vanBurenCount = count
         }
         
-        self.delegate?.didUpdateCounts(self)
+        CentralRequest.fetch(parseCentralResponse)
     }
     
     private func parseCentralResponse(xml: XMLIndexer) {
