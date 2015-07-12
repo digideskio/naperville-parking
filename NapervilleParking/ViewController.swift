@@ -7,6 +7,10 @@ class ViewController: UIViewController {
     @IBOutlet weak var chicagoMiddleLabel: UILabel!
     @IBOutlet weak var jeffersonLowerLabel: UILabel!
     @IBOutlet weak var vanBurenLabel: UILabel!
+    
+    @IBAction func refreshButtonPressed(sender: AnyObject) {
+        parkingSpotStore.update()
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()

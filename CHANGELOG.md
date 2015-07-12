@@ -6,6 +6,10 @@ practices from [Keep a CHANGELOG](http://keepachangelog.com/).
 
 ## [ Unreleased ]
 
+### Added
+
+* Refresh button
+
 ### Fixed
 
 * Improved spacing of counts
