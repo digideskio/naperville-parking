@@ -17,13 +17,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vYe-CO-yNd" userLabel="Groups">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="540"/>
+                                <rect key="frame" x="0.0" y="20" width="600" height="520"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vrM-E9-Hng" userLabel="Spacer">
-                                        <rect key="frame" x="0.0" y="0.0" width="600" height="36"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="600" height="32"/>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="m5W-jR-zOU" userLabel="Jefferson Upper Group">
-                                        <rect key="frame" x="0.0" y="36" width="600" height="90"/>
+                                        <rect key="frame" x="0.0" y="32" width="600" height="90"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Jefferson Upper" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vH8-B3-noL">
                                                 <rect key="frame" x="197" y="0.0" width="206.5" height="35.5"/>
@@ -47,10 +47,10 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PfH-xi-D8l" userLabel="Spacer">
-                                        <rect key="frame" x="0.0" y="126" width="600" height="36"/>
+                                        <rect key="frame" x="0.0" y="122" width="600" height="32"/>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1iJ-X8-IwT" userLabel="Chicago Middle Group">
-                                        <rect key="frame" x="0.0" y="162" width="600" height="90"/>
+                                        <rect key="frame" x="0.0" y="154" width="600" height="90"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chicago Middle" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ihB-yH-cXL">
                                                 <rect key="frame" x="199" y="0.0" width="201.5" height="35.5"/>
@@ -74,10 +74,10 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XaY-7a-KPL" userLabel="Spacer">
-                                        <rect key="frame" x="0.0" y="252" width="600" height="36"/>
+                                        <rect key="frame" x="0.0" y="244" width="600" height="32"/>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ofo-g1-Ag7" userLabel="Jefferson Lower Group">
-                                        <rect key="frame" x="0.0" y="288" width="600" height="90"/>
+                                        <rect key="frame" x="0.0" y="276" width="600" height="90"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Jefferson Lower" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zdu-Bj-Koa">
                                                 <rect key="frame" x="197" y="0.0" width="206.5" height="35.5"/>
@@ -101,10 +101,10 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DjO-yy-gfS" userLabel="Spacer">
-                                        <rect key="frame" x="0.0" y="378" width="600" height="36"/>
+                                        <rect key="frame" x="0.0" y="366" width="600" height="32"/>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VRO-WY-aed" userLabel="Van Buren Group">
-                                        <rect key="frame" x="0.0" y="414" width="600" height="90"/>
+                                        <rect key="frame" x="0.0" y="398" width="600" height="90"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Van Buren" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wqf-aB-iIG">
                                                 <rect key="frame" x="233" y="0.0" width="133" height="35.5"/>
@@ -128,7 +128,7 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="g6y-qL-KyV" userLabel="Spacer">
-                                        <rect key="frame" x="0.0" y="504" width="600" height="36"/>
+                                        <rect key="frame" x="0.0" y="488" width="600" height="32"/>
                                     </view>
                                 </subviews>
                                 <constraints>
